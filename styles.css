@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+#game-container {
+  text-align: center;
+}
+
+#cookie {
+  width: 150px;
+  height: 150px;
+  background-image: url('https://example.com/cookie.png'); /* Replace with your cookie image URL */
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+#cookie-counter {
+  font-size: 24px;
+  font-weight: bold;
+}
